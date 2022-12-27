@@ -1,0 +1,67 @@
+Hochschule Karlsruhe
+University of
+Applied Sciences
+
+Semester Jahr Datum
+Wintersemester 21/22 14.12.2021
+
+P4— Erweiterung des A*
+
+i) Sie haben in der Vorlesung den A*-Algorithmus kennengelernt. Um diesen Algorithmus
+besser beurteilen und mit den anderen Verfahren vergleichen zu kénnen, erweitern Sie
+der Vorlesung gegebenen Version um eine prametrierbare Diskretisierung, d.h.:
+
+ 
+
+1) Fahren Sie eine veranderliche Diskretisierung ein. In der derzeitigen
+implementierung wird sehr rudimentar die Schrittweise 1 angenommen, dh.
+‘werden die Grenzen von 0-25 angenommen entspricht dies 25 Schritten.
+Ermoglichen Sie es daher den gegebenen Bereich in beliebige zu Beginn einer
+Planung in eine fest vorgegebene Anzahl von Schritten aufzuteilen, 2.8. 0-25 in 100,
+221 oder auch 1000 Schritte aufzuteilen. Dabei soll jede Achse des
+Konfigurationsraums unterschiedlich diskretisierbar sein.
+
+a. Achten Sie dabei auf Folgendes: Start und/oder EndwertKbnnen eventuell
+nicht auf diesem Gitter liegen. Wie kénnen Sie dennoch einen
+kollisionsfreien Pfad von Start zu Ziel realisieren? Implementieren Sie eine
+geeignete Strategie.
+
+b. Derzeit wird nur der Knoten auf Kolision Uberprift. Realisieren sie die
+Miglichkeit per Konfiguration einzuschalten, dass auch die Verbindung
+zwischen 2wei Knoten auf Kollision dberpriit wird.
+
+2.) Vergleichen Sie den A*-Algorithmus anhand von mind. 10 Benchmark-Aufgaben mit
+verschiedenen Diskretisierungsstufen, 2.8.1, 10, 100, 300, 1000. (Falls notwendig
+kénnen Sie die Stufen auch anpassen) und Kollision der Verbindung an/aus.
+Kriterien:Suchzet, Gre Roadmap, Anzahl Punkte im Pad, Lange des Pfades,
+Gerne kénnen Sie hier noch weitere Kriterien hinzuflgen. Zelgen Sie die Ergebnisse
+.raphisch und diskutieren Sie diese im Anschluss.
+
+3.) Vergleich Sie dann mit drei von thnen gewahiten Diskretisierungen den A* mit
+Lazy- und Visibility-PRM anhand von mind, 10 Benchmark-Aufgaben bei
+«ingeschalteter Kolisionsberprifung der Knotenverbindungen bei A*. Wahl
+geeignete Kriterien, stellen Sie die Ergebnisse grafisch da und diskutieren Sie
+
+ 
+  
+ 
+  
+ 
+
+
+ii) Erlautern Sie bitte zudem im Endbericht:
+
+1.) Mit welchen Bewegungsbefehlen wirden Sie den Ergebnispfad des A* in ein
+Roboterprogramm umwandeln. Erlautern Sie, warum das zwar méglich ist, aber es
+nicht unbedingt sinnvoll ist.
+
+2.) Was miissen Sie machen, damit er sinnvoll abgefahren werden kann. Erlautern:
+die Vorgehensweise (nicht programmieren). ‘
+
+‘Anmerkung: Bitte checken Sie das Notebook ,Profiling_pstats_example” und ,|PX-0-
+‘Automated _PlanerTest” far Profiling und Statistiken
+
+ 
+
+Viel Erfolg!
+
