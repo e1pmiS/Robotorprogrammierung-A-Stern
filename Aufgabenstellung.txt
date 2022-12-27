@@ -15,9 +15,9 @@ der Vorlesung gegebenen Version um eine prametrierbare Diskretisierung, d.h.:
 
 1) Fahren Sie eine veranderliche Diskretisierung ein. In der derzeitigen
 implementierung wird sehr rudimentar die Schrittweise 1 angenommen, dh.
-‘werden die Grenzen von 0-25 angenommen entspricht dies 25 Schritten.
+werden die Grenzen von 0-25 angenommen entspricht dies 25 Schritten.
 Ermoglichen Sie es daher den gegebenen Bereich in beliebige zu Beginn einer
-Planung in eine fest vorgegebene Anzahl von Schritten aufzuteilen, 2.8. 0-25 in 100,
+Planung in eine fest vorgegebene Anzahl von Schritten aufzuteilen, Z.B. 0-25 in 100,
 221 oder auch 1000 Schritte aufzuteilen. Dabei soll jede Achse des
 Konfigurationsraums unterschiedlich diskretisierbar sein.
 
@@ -30,8 +30,8 @@ b. Derzeit wird nur der Knoten auf Kolision Uberprift. Realisieren sie die
 Miglichkeit per Konfiguration einzuschalten, dass auch die Verbindung
 zwischen 2wei Knoten auf Kollision dberpriit wird.
 
-2.) Vergleichen Sie den A*-Algorithmus anhand von mind. 10 Benchmark-Aufgaben mit
-verschiedenen Diskretisierungsstufen, 2.8.1, 10, 100, 300, 1000. (Falls notwendig
+2.) Vergleichen Sie den A* -Algorithmus anhand von mind. 10 Benchmark-Aufgaben mit
+verschiedenen Diskretisierungsstufen, Z.B. 1, 10, 100, 300, 1000. (Falls notwendig
 kénnen Sie die Stufen auch anpassen) und Kollision der Verbindung an/aus.
 Kriterien:Suchzet, Gre Roadmap, Anzahl Punkte im Pad, Lange des Pfades,
 Gerne kénnen Sie hier noch weitere Kriterien hinzuflgen. Zelgen Sie die Ergebnisse
