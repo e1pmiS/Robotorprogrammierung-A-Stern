@@ -1,0 +1,11 @@
+1- feste diskrestierung: 
+    Nachteile:
+        * bestimmte valid Punkte.
+    Vorteile:
+        * man kann die Diskratisierung auswählen.
+
+2- adabtive Dis. :
+    Vorteile: 
+        * alle punkte sind valid.
+    Nachteile: 
+        * kein festes Dis. 
